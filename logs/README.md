@@ -37,8 +37,10 @@
 |11|Coin vibration motors|50|4|200|Mannan [Attachment_3](attachments/2.png)|❌|Haptic feedback; Need 4 more|
 ||Total||33|2311||||
 
-
 - `Thu Feb 05 2026 16:03:20` : Started Logging 
+- `Thu Feb 05 2026 18:55:20` : Blink Test passed for both UNOs
+<img width="944" height="583" alt="6" src="./attachments/6.jpeg" />
+> lackluster entry made to be exemplary of how future entries go. (I need two UNOs because i'll be coding two simultaneously and will be testing to see them communicate), otherwise I'd just use one UNO to program different ATMega328s
 
 # Format
 The time format is `GMT + 0600 (BST)`,\
