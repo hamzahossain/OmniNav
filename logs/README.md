@@ -43,7 +43,7 @@
 
 > lackluster entry made to be exemplary of how future entries go. (I need two UNOs because i'll be coding two simultaneously and will be testing to see them communicate), otherwise I'd just use one UNO to program different ATMega328s
 - `Thu Feb 05 2026 19:35:10` : Bootload to every ATMega328 chip. 
-`Thu Feb 05 2026 20:18:01` : Successfully established connection between two UNOs using RF
+`Thu Feb 05 2026 20:18:01` : Successfully established connection between two UNOs using RF [Commit](https://github.com/hamzahossain/OmniNav/commit/4007010bf32ae897c1e7cfd6a1b7ddbcb73898d0)
 <img width="800" height="388"  alt="7" src="./attachments/7.jpeg"/>
 
 - `Thu Feb 05 2026 20:25:01` : To Make the atmega run standalone, i require
