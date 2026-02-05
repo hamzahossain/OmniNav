@@ -103,3 +103,8 @@ function generateInvoicesTable(ar) {
     return res;
 }
 ```
+# ⚠️ DISCLAIMER
+
+A few of the receipts weren't recoverable. 
+And the prices here are strictly what I have paid for them. These may change over time. The sources are linked but due to buying wholesale and haggling and at times being a regular customer, I got some of the components at a cheaper price. 
+Some components are bought to be extras. some may not be present at the final build. there will be a final component sheet with total build cost, independant from how much I spent on this project along the way.
