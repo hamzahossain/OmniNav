@@ -32,9 +32,9 @@
 |6|4056|15|1|15|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Chargine module|
 |7|MPU 6050|170|1|170|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Gyroscope sensor|
 |8|Neo-6m|330|1|330|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|GPS Module|
-|9|3.7 1000Mhz LiPo|140|1|140|AbdusSalam [Attachment_2](attachments/2.png)| [Attachment_5](attachments/5.png)|Battery for headgear|
-|10|28 pin IC holder|10|2|20|AbdusSalam [Attachment_2](attachments/2.png)| [Attachment_5](attachments/5.png)|For arduino chips|
-|11|Coin vibration motors|50|4|200|Mannan [Attachment_3](attachments/3.png)|❌|Haptic feedback; Need 4 more|
+|9|3.7 1000Mhz LiPo|140|1|140|AbdusSalam [Attachment_2](attachments/5.png)| [Attachment_5](attachments/5.png)|Battery for headgear|
+|10|28 pin IC holder|10|2|20|AbdusSalam [Attachment_2](attachments/5.png)| [Attachment_5](attachments/5.png)|For arduino chips|
+|11|Coin vibration motors|50|4|200|Mannan [Attachment_3](attachments/2.png)|❌|Haptic feedback; Need 4 more|
 ||Total||33|2311||||
 
 
@@ -106,5 +106,7 @@ function generateInvoicesTable(ar) {
 # ⚠️ DISCLAIMER
 
 A few of the receipts weren't recoverable. 
+The point of keeping the receipts is for budgetary accountability  
 And the prices here are strictly what I have paid for them. These may change over time. The sources are linked but due to buying wholesale and haggling and at times being a regular customer, I got some of the components at a cheaper price. 
+Some components I bought for my personal usage, which are just there in the receipts. they may be ignored.
 Some components are bought to be extras. some may not be present at the final build. there will be a final component sheet with total build cost, independant from how much I spent on this project along the way.
