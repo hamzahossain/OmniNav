@@ -40,7 +40,18 @@
 - `Thu Feb 05 2026 16:03:20` : Started Logging 
 - `Thu Feb 05 2026 18:55:20` : Blink Test passed for both UNOs
 <img width="944" height="583" alt="6" src="./attachments/6.jpeg" />
+
 > lackluster entry made to be exemplary of how future entries go. (I need two UNOs because i'll be coding two simultaneously and will be testing to see them communicate), otherwise I'd just use one UNO to program different ATMega328s
+- `Thu Feb 05 2026 19:35:10` : Bootload to every ATMega328 chip. 
+`Thu Feb 05 2026 20:18:01` : Successfully established connection between two UNOs using RF
+<img width="800" height="388"  alt="7" src="./attachments/7.jpeg"/>
+
+- `Thu Feb 05 2026 20:25:01` : To Make the atmega run standalone, i require
+- - 16Mhz crystal oscillator
+  - 22 pF ceramic capacitor (2)
+  - 10 kOhm
+  - 0.1 µF (3)
+- `Thu Feb 05 2026 20:25:01` : For better RF performance, I need antennas `RF - 433MHz Helical Spring Antenna for Wireless Modules 2`
 
 # Format
 The time format is `GMT + 0600 (BST)`,\
