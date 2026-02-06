@@ -39,12 +39,12 @@
 
 - `Thu Feb 05 2026 16:03:20` : Started Logging 
 - `Thu Feb 05 2026 18:55:20` : Blink Test passed for both UNOs
-<img width="944" height="583" alt="6" src="./attachments/6.jpeg" />
+<img alt="6" src="./attachments/6.jpeg" />
 
 > lackluster entry made to be exemplary of how future entries go. (I need two UNOs because i'll be coding two simultaneously and will be testing to see them communicate), otherwise I'd just use one UNO to program different ATMega328s
 - `Thu Feb 05 2026 19:35:10` : Bootload to every ATMega328 chip. 
 `Thu Feb 05 2026 20:18:01` : Successfully established connection between two UNOs using RF [Commit](https://github.com/hamzahossain/OmniNav/commit/4007010bf32ae897c1e7cfd6a1b7ddbcb73898d0)
-<img width="800" height="388"  alt="7" src="./attachments/7.jpeg"/>
+<img alt="7" src="./attachments/7.jpeg"/>
 
 - `Thu Feb 05 2026 20:25:01` : To Make the atmega run standalone, i require
   - 16Mhz crystal oscillator
@@ -53,7 +53,10 @@
   - 0.1 µF (3)
 - `Thu Feb 05 2026 20:25:01` : For better RF performance, I need antennas `RF - 433MHz Helical Spring Antenna for Wireless Modules 2`
 - `Fri Feb 06 2026 16:16:33` : The RF receiver has to have the ground connected to the chip's ground for some reason.
-- `Fri Feb 06 2026 16:29:45` : Added keypad to transmitter to simulate dynamic directional input.
+- `Fri Feb 06 2026 16:29:45` : Added keypad to transmitter to simulate dynamic directional input. [27dd4ac](https://github.com/hamzahossain/OmniNav/commit/27dd4ac302e5c6d990c6b570a41c689d82d74303)
+- `Fri Feb 06 2026 18:35:45` : Made the workspace cleaner (combined the two breadboards. the RF works, there's no point in demonstrating that anymore). <img alt="8" src="./attachments/8.jpeg"/>
+
+- `Fri Feb 06 2026 18:45:21` : Started coin vibration motor testing (PLAN: use the keypads to simulate test the intensities, 1-9 = 10%=90%) 
 # Format
 The time format is `GMT + 0600 (BST)`,\
 $currency = `BDT`
