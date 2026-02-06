@@ -53,6 +53,7 @@
   - 0.1 µF (3)
 - `Thu Feb 05 2026 20:25:01` : For better RF performance, I need antennas `RF - 433MHz Helical Spring Antenna for Wireless Modules 2`
 - `Fri Feb 06 2026 16:16:33` : The RF receiver has to have the ground connected to the chip's ground for some reason.
+- `Fri Feb 06 2026 16:29:45` : Added keypad to transmitter to simulate dynamic directional input.
 # Format
 The time format is `GMT + 0600 (BST)`,\
 $currency = `BDT`
