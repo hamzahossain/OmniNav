@@ -57,6 +57,7 @@
 - `Fri Feb 06 2026 18:35:45` : Made the workspace cleaner (combined the two breadboards. the RF works, there's no point in demonstrating that anymore). <img alt="8" src="./attachments/8.jpeg"/>
 
 - `Fri Feb 06 2026 18:45:21` : Started coin vibration motor testing (PLAN: use the keypads to simulate test the intensities, 1-9 = 10%=90%) 
+- `Fri Feb 06 2026 22:27:42` : SETBACK: Can't get Coin motors to work. 
 # Format
 The time format is `GMT + 0600 (BST)`,\
 $currency = `BDT`
