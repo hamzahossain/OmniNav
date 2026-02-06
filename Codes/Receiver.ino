@@ -1,6 +1,6 @@
 // Ok so this goes on the head. the UNO on the head will receive the radio signal. and then run the 8 vibration modules
 #include <RH_ASK.h>
-#include <SPI.h> 
+#include <SPI.h> // Required even if not used directly
 
 RH_ASK driver;
 
@@ -25,6 +25,7 @@ void loop() {
     delay(200);
     digitalWrite(LED_BUILTIN, LOW);
 
+     // Print the received message with timestamp
     Serial.print("[");
     Serial.print(millis()); // milliseconds since reset
     Serial.print(" ms] Received: ");
