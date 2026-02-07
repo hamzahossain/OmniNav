@@ -62,6 +62,7 @@
 Addendum - I found the minimum (IN SIMULATION) value to be 120; learned something about a kickstarting value; Current plan: starting value will be the lowest feelable value (TO TEST), max value will be the most tolerable (accounting for hair) 
 - `Sat Feb 07 2026 19:47:20` : FIXED Motor usage. **PROBLEM: RadioHead messes with pin 9 and 10 internally**
 - `Sat Feb 07 2026 19:55:43` : Addressable intensity feature added, however... it just feels the same.
+- `Sat Feb 07 2026 20:07:26` : Momma hamza also said it felt the same, so... I guess human fingertip perception can't tell the levels apart (FUTURE implementation: stronger vibration motors OR maybe the skin on the forehead is more sensitive? To revisit) 
 # Format
 The time format is `GMT + 0600 (BST)`,\
 $currency = `BDT`
