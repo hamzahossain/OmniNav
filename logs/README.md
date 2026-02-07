@@ -61,6 +61,7 @@
 - `Sat Feb 07 2026 18:48:17` : From simulation, I found that the problem is the PWM isn't giving enough voltage <img width="1697" height="723" alt="image" src="https://github.com/user-attachments/assets/dfb86c65-952a-41d4-9e34-8c56086dfbe6" />
 Addendum - I found the minimum (IN SIMULATION) value to be 120; learned something about a kickstarting value; Current plan: starting value will be the lowest feelable value (TO TEST), max value will be the most tolerable (accounting for hair) 
 - `Sat Feb 07 2026 19:47:20` : FIXED Motor usage. **PROBLEM: RadioHead messes with pin 9 and 10 internally**
+- `Sat Feb 07 2026 19:55:43` : Addressable intensity feature added, however... it just feels the same.
 # Format
 The time format is `GMT + 0600 (BST)`,\
 $currency = `BDT`
