@@ -58,6 +58,9 @@
 
 - `Fri Feb 06 2026 18:45:21` : Started coin vibration motor testing (PLAN: use the keypads to simulate test the intensities, 1-9 = 10%=90%) 
 - `Fri Feb 06 2026 22:27:42` : SETBACK: Can't get Coin motors to work. 
+- `Sat Feb 07 2026 18:48:17` : From simulation, I found that the problem is the PWM isn't giving enough voltage <img width="1697" height="723" alt="image" src="https://github.com/user-attachments/assets/dfb86c65-952a-41d4-9e34-8c56086dfbe6" />
+Addendum - I found the minimum (IN SIMULATION) value to be 120; learned something about a kickstarting value; Current plan: starting value will be the lowest feelable value (TO TEST), max value will be the most tolerable (accounting for hair) 
+
 # Format
 The time format is `GMT + 0600 (BST)`,\
 $currency = `BDT`
