@@ -10,7 +10,10 @@ void setup()
 {
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(motorPin, OUTPUT);
-
+  pinMode(2, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(8, OUTPUT);
   Serial.begin(9600);
 
   if (!driver.init())
@@ -44,24 +47,38 @@ void loop()
     char receivedChar = (char)buf[0];
     if (receivedChar >= '1' && receivedChar <= '9')
     {
+
       Serial.println("numero");
-      // int rangeB = 255;
-      // int rangeA = 128;
-      int level = receivedChar - '1'; // index 0–8
+      int level = receivedChar - '1';
       Serial.print("value :");
-      // digitalWrite(10, HIGH);
-      // int intensity = rangeA + (double)(rangeB - rangeA) * (((double)level * 10) / 100);
-      // Serial.print(intensity);
+
       analogWrite(motorPin, 255);
+
       // Use delay as intensity
       int delayAmount = 0;
       if (level < 4)
-        delayAmount = 40;
+        delayAmount = 30;
       else if (level < 7)
         delayAmount = 80;
       else
-        delayAmount = 120;
+        delayAmount = 130;
+
       delay(delayAmount);
+      int lightPin = 0;
+      if (level == 1)
+        lightPin = 2;
+      else if (level == 3)
+        lightPin = 7;
+      else if (level == 5)
+        lightPin = 5;
+      else if (level == 7)
+        lightPin = 4;
+      if (lightPin)
+      {
+        digitalWrite(lightPin, HIGH);
+        delay(200);
+        digitalWrite(lightPin, LOW);
+      }
       analogWrite(motorPin, 0);
     }
 

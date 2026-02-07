@@ -66,6 +66,10 @@
 - `Sat Feb 07 2026 19:55:43` : Addressable intensity feature added, however... it just feels the same.
 - `Sat Feb 07 2026 20:07:26` : Momma hamza also said it felt the same, so... I guess human fingertip perception can't tell the levels apart (FUTURE implementation: stronger vibration motors OR maybe the skin on the forehead is more sensitive? To revisit)
 - `Sat Feb 07 2026 20:33:54` : Used delay to simulate intensity [#dbd09cd](https://github.com/hamzahossain/OmniNav/commit/dbd09cddd6948f5016520e64032f19d8bcc87789)
+- `Sat Feb 07 2026 21:39:57` : Plan for directional motor layout
+  <img alt="9" src="./attachments/9.png"/>
+- `Sat Feb 07 2026 22:03:26` : Successfully tested dynamic directional input.
+  <img alt="10" src="./attachments/10.jpg"/>
 
 # Format
 
