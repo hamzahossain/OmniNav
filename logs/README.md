@@ -70,6 +70,9 @@
   <img alt="9" src="./attachments/9.png"/>
 - `Sat Feb 07 2026 22:03:26` : Successfully tested dynamic directional input.
   <img alt="10" src="./attachments/10.jpg"/>
+- `Sun Feb 08 2026 18:21:49` : Successfully detached the ATMega328 to a standalone setup.
+  <img alt="11" src="./attachments/11.png"/>
+- `Sun Feb 08 2026 18:50:34` : Rolled back to [legacy driver for the USB-> TTL](https://github.com/johnstevenson/pl2303-legacy)
 
 # Format
 
