@@ -70,10 +70,31 @@
   <img alt="9" src="./attachments/9.png"/>
 - `Sat Feb 07 2026 22:03:26` : Successfully tested dynamic directional input.
   <img alt="10" src="./attachments/10.jpg"/>
+- `Sun Feb 08 2026 14:15:49` : Purchashed: (NOTE: A lot of the components were small and dirt cheap. they were bundled up and charged at an amount of like 30tk. Due to the amount of it, I didn't get a proper receipt. just a sign with the amount written by the shopkeeper... I.. ended up purchasing more even after that)
+
+|Item No|Item Name|Price per unit|Quantity|Total|Store|Receipt|Note|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|1|16mhz crystal oscillator|10|4|40|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Uno onboard|
+|2|Veroboard|50|2|100|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Uno onboard|
+|3|22pF|1.25|8|10|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Uno onboard|
+|4|0.1uF|1.25|12|15|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Uno onboard|
+|5|10uF|1|5|5|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Uno onboard|
+|6|10KΩ|1.5|20|30|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Uno onboard|
+|7|330Ω|1|30|30|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Current limiting|
+|8|LED|1|10|10|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Testing|
+|9|USB TO TTL|80|2|160|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|To code the UNOs on the fly|
+|10|Boost Converter|60|1|60|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|5v|
+|11|TP4056|15|1|15|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Charging|
+|12|9v Battery|40|1|40|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Power|
+|13|Breadboard large|80|1|80|Swadesh [Attachment_1](attachments/1.png)| [Attachment_4](attachments/4.png)|Testing|
+||Total||97|595|||ACC Total: 3066|
+
 - `Sun Feb 08 2026 18:21:49` : Successfully detached the ATMega328 to a standalone setup.
   <img alt="11" src="./attachments/11.png"/>
 - `Sun Feb 08 2026 18:50:34` : Rolled back to [legacy driver for the USB-> TTL](https://github.com/johnstevenson/pl2303-legacy)
-
+- `Thu Feb 12 2026 10:51:09` : The HC-SR04 (sonar) sensors up to 30 degrees. need more than 4 for total coverage apparently.
+- `Thu Feb 12 2026 17:06:48` : For the Sonar sensors, all of them can share the same trigger pin but the echo pins should be separate. 
+- `Thu Feb 12 2026 17:07:48` : Might need to switch to ESP32, The GPS, the gyro. and the sonars add up to a lot of switches. 
 # Format
 
 The time format is `GMT + 0600 (BST)`,\
