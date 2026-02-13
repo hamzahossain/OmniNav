@@ -141,9 +141,10 @@
 |     15     |      9      |      3       |
 |     11     |      5      |      4       |
 |     12     |      6      |      5       |
-|     13     |      8      |      6       |
+|     13     |      7      |      6       |
 |     14     |      8      |      7       |
 |     16     |     10      |  RF Receive  |
+|     5      |      3      | Exposed PWM  |
 
 - `Fri Feb 13 2026 18:12:26` : Draft head base
 
@@ -163,9 +164,15 @@
 
 - `Sat Feb 14 2026 00:18:49` : Example of the wiring for a specific motor, in this example: `LD` :
 
-![Temp](https://github.com/user-attachments/assets/dad074b0-94a2-4351-81de-b7b674843286)
+![16B png](./attachments/16B.png)
 
-Just make the base and solder to the specific direction 
+Just make the base and solder to the specific direction
+
+- `Sat Feb 14 2026 01:01:21` : Fix circuit issues and add debug and programming to base
+- `Sat Feb 14 2026 01:16:29` : On The base, expose digital pin 3 for debugging
+- `Sat Feb 14 2026 02:00:36` : Settle on LiPo 3.3v 3000mAh
+- `Sat Feb 14 2026 02:24:19` : I need a 100uf or 1000uf on the charger circuit to stabilize the power for the ATMega
+
 # Format
 
 The time format is `GMT + 0600 (BST)`,\
