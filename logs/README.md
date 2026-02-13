@@ -116,7 +116,37 @@
 - `Fri Feb 13 2026 14:10:34` : Try `VeeCad`
 - `Fri Feb 13 2026 14:38:15` : Can't show the background wiring in VeeCad. Move to `VeroRoute`.
 - `Fri Feb 13 2026 15:07:24` : Use threads for strap ![alt text](./attachments/12.png)
+- `Fri Feb 13 2026 16:23:53` : Designated Pins for motors \
+
+**MOTOR NUMBERING**:
+
+| Motor Number | Motor Direction |
+| :----------: | :-------------: |
+|      0       |        F        |
+|      1       |       LF        |
+|      2       |        L        |
+|      3       |       LD        |
+|      4       |        D        |
+|      5       |       RD        |
+|      6       |        R        |
+|      7       |       RF        |
+
+**PIN DESIGNATION**:
+
+| ATMega PIN | Arduino PIN | Motor Number |
+| :--------: | :---------: | :----------: |
+|     19     |     13      |      0       |
+|     18     |     12      |      1       |
+|     17     |     11      |      2       |
+|     15     |      9      |      3       |
+|     11     |      5      |      4       |
+|     12     |      6      |      5       |
+|     13     |      8      |      6       |
+|     14     |      8      |      7       |
+|     16     |     10      |  RF Receive  |
+
 - `Fri Feb 13 2026 18:12:26` : Draft head base
+
 
 ![13 png](./attachments/13.png)
 
@@ -135,7 +165,23 @@ The time format is `GMT + 0600 (BST)`,\
 // generating timestamp script
 copy(`- \`${new Date().toString().split(" ").slice(0, 5).join(" ")}\` : `);
 ```
-
+```js
+// GENERATING MARKDOWN TABLE
+function generateMDTable(arr) {
+    let fr = arr.shift();
+    arr.unshift(Array.from({ length: arr[0].length }, () => ":---:"));
+    arr.unshift(fr);
+    let res = ``;
+    for (let i = 0; i < arr.length; i++) {
+        res += "|";
+        for (let j = 0; j < arr[0].length; j++) {
+            res += `${arr[i][j] ?? ""}|`;
+        }
+        res += "\n";
+    }
+    return res;
+}
+```
 ```js
 // GENERATING INVOICE TABLE
 //  "Item Name", "Price per unit", "Quantity", "Store", "Receipt", "Note"
