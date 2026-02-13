@@ -147,12 +147,19 @@
 
 - `Fri Feb 13 2026 18:12:26` : Draft head base
 
-
 ![13 png](./attachments/13.png)
 
 - `Fri Feb 13 2026 19:38:14` : Finalize Headgear Base
 
 ![14 png](./attachments/14.png)
+
+- `Fri Feb 13 2026 22:28:34` : Finalize Headgear Motor
+
+![16 png](./attachments/16.png)
+
+- `Fri Feb 13 2026 23:42:16` : Rework base
+
+![17 png](./attachments/17.png)
 
 # Format
 
@@ -165,23 +172,25 @@ The time format is `GMT + 0600 (BST)`,\
 // generating timestamp script
 copy(`- \`${new Date().toString().split(" ").slice(0, 5).join(" ")}\` : `);
 ```
+
 ```js
 // GENERATING MARKDOWN TABLE
 function generateMDTable(arr) {
-    let fr = arr.shift();
-    arr.unshift(Array.from({ length: arr[0].length }, () => ":---:"));
-    arr.unshift(fr);
-    let res = ``;
-    for (let i = 0; i < arr.length; i++) {
-        res += "|";
-        for (let j = 0; j < arr[0].length; j++) {
-            res += `${arr[i][j] ?? ""}|`;
-        }
-        res += "\n";
+  let fr = arr.shift();
+  arr.unshift(Array.from({ length: arr[0].length }, () => ":---:"));
+  arr.unshift(fr);
+  let res = ``;
+  for (let i = 0; i < arr.length; i++) {
+    res += "|";
+    for (let j = 0; j < arr[0].length; j++) {
+      res += `${arr[i][j] ?? ""}|`;
     }
-    return res;
+    res += "\n";
+  }
+  return res;
 }
 ```
+
 ```js
 // GENERATING INVOICE TABLE
 //  "Item Name", "Price per unit", "Quantity", "Store", "Receipt", "Note"
