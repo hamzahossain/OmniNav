@@ -3,21 +3,21 @@
 - `Mon Feb 02 2026 07:35:20` : Project inception
 - `Mon Feb 02 2026 07:44:20` : `OmniNav` naming
 - `Mon Feb 02 2026 07:52:20` : Set constraints as
--   - Lightweight
-    - Comfortable
-    - Easy to calibrate
-    - Uses the bare minimum of human senses. (Currently, only the sensation of touch surrounding the forehead)
-    - Intuitive/Easy to get used to.
-    - Be as standalone as possible (Emergency contact requires internet and connectivity)
-    - Doesn’t make the user stand out.
-    - Easy to replicate/mass produce
+- - Lightweight
+  - Comfortable
+  - Easy to calibrate
+  - Uses the bare minimum of human senses. (Currently, only the sensation of touch surrounding the forehead)
+  - Intuitive/Easy to get used to.
+  - Be as standalone as possible (Emergency contact requires internet and connectivity)
+  - Doesn’t make the user stand out.
+  - Easy to replicate/mass produce
 - `Mon Feb 02 2026 07:55:20` : Estimate rough budget around ৳6K-৳7K. Budgetary breakdown:
-    - GPS Module : ৳1200
-    - Microcontrollers: ৳1000 (includes a combination of an esp32, arduino nano, pico)
-    - Bluetooth modules: ৳300-৳600
-    - Ultrasonic sensors: ৳400
-    - OPTIONAL GSM: ৳700
-    - Vibration motors: ৳400
+  - GPS Module : ৳1200
+  - Microcontrollers: ৳1000 (includes a combination of an esp32, arduino nano, pico)
+  - Bluetooth modules: ৳300-৳600
+  - Ultrasonic sensors: ৳400
+  - OPTIONAL GSM: ৳700
+  - Vibration motors: ৳400
 - `Mon Feb 02 2026 11:04:51` : Present proposal, pushback about headwear. budget set at ৳6500
 - `Wed Feb 04 2026 06:26:03` : Decide on RF 433mhz on being the way the two parts communicate, instead of bluetooth
 - `Wed Feb 04 2026 21:26:03` : Plan either two ATMega328s or one ATMega328 and one ATTiny85 for the headband (needs a
@@ -52,10 +52,10 @@
   <img alt="7" src="./attachments/7.jpeg"/>
 
 - `Thu Feb 05 2026 20:25:01` : To Make the atmega run standalone, i require
-    - 16Mhz crystal oscillator
-    - 22 pF ceramic capacitor (2)
-    - 10 kOhm
-    - 0.1 µF (3)
+  - 16Mhz crystal oscillator
+  - 22 pF ceramic capacitor (2)
+  - 10 kOhm
+  - 0.1 µF (3)
 - `Thu Feb 05 2026 20:25:01` : For better RF performance, I need antennas
   `RF - 433MHz Helical Spring Antenna for Wireless Modules 2`
 - `Fri Feb 06 2026 16:16:33` : The RF receiver has to have the ground connected to the chip's ground for some reason.
@@ -83,24 +83,24 @@
 - `Sat Feb 07 2026 22:03:26` : Successfully tested dynamic directional input. <img alt="10" src="./attachments/10.jpg"/>
 - `Sun Feb 08 2026 14:15:49` : Purchashed: (NOTE: A lot of the components were small and dirt cheap. they were bundled
   up and charged at an amount of like 30tk. Due to the amount of it, I didn't get a proper receipt. just a sign with the
-  amount written by the shopkeeper... I.. ended up purchasing more even after that)
+  amount written by the shopkeeper... I.. ended up purchasing more even after that), [Attachment_15](attachments/15.png)
 
-| Item No |        Item Name         | Price per unit | Quantity | Total |                   Store                   |              Receipt              |            Note             |
-| :-----: | :----------------------: | :------------: | :------: | :---: | :---------------------------------------: | :-------------------------------: | :-------------------------: |
-|    1    | 16mhz crystal oscillator |      ৳10       |    4     |  ৳40  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |         Uno onboard         |
-|    2    |        Veroboard         |      ৳50       |    2     | ৳100  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |         Uno onboard         |
-|    3    |           22pF           |     ৳1.25      |    8     |  ৳10  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |         Uno onboard         |
-|    4    |          0.1uF           |     ৳1.25      |    12    |  ৳15  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |         Uno onboard         |
-|    5    |           10uF           |       ৳1       |    5     |  ৳ 5  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |         Uno onboard         |
-|    6    |           10KΩ           |      ৳1.5      |    20    |  ৳30  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |         Uno onboard         |
-|    7    |           330Ω           |       ৳1       |    30    |  ৳30  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |      Current limiting       |
-|    8    |           LED            |       ৳1       |    10    |  ৳10  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |           Testing           |
-|    9    |        USB TO TTL        |      ৳80       |    2     | ৳160  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) | To code the UNOs on the fly |
-|   10    |     Boost Converter      |      ৳60       |    1     |  ৳60  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |             5v              |
-|   11    |          TP4056          |      ৳15       |    1     |  ৳15  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |          Charging           |
-|   12    |        9v Battery        |      ৳40       |    1     |  ৳40  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |            Power            |
-|   13    |     Breadboard large     |      ৳80       |    1     |  ৳80  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_4](attachments/4.png) |           Testing           |
-|         |          Total           |                |    97    | ৳595  |                                           |                                   |      ACC Total: ৳3066       |
+| Item No |        Item Name         | Price per unit | Quantity | Total |                   Store                   |               Receipt               |            Note             |
+| :-----: | :----------------------: | :------------: | :------: | :---: | :---------------------------------------: | :---------------------------------: | :-------------------------: |
+|    1    | 16mhz crystal oscillator |      ৳10       |    4     |  ৳40  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |         Uno onboard         |
+|    2    |        Veroboard         |      ৳50       |    2     | ৳100  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |         Uno onboard         |
+|    3    |           22pF           |     ৳1.25      |    8     |  ৳10  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |         Uno onboard         |
+|    4    |          0.1uF           |     ৳1.25      |    12    |  ৳15  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |         Uno onboard         |
+|    5    |           10uF           |       ৳1       |    5     |  ৳ 5  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |         Uno onboard         |
+|    6    |           10KΩ           |      ৳1.5      |    20    |  ৳30  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |         Uno onboard         |
+|    7    |           330Ω           |       ৳1       |    30    |  ৳30  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |      Current limiting       |
+|    8    |           LED            |       ৳1       |    10    |  ৳10  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |           Testing           |
+|    9    |        USB TO TTL        |      ৳80       |    2     | ৳160  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) | To code the UNOs on the fly |
+|   10    |     Boost Converter      |      ৳60       |    1     |  ৳60  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |             5v              |
+|   11    |          TP4056          |      ৳15       |    1     |  ৳15  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |          Charging           |
+|   12    |        9v Battery        |      ৳40       |    1     |  ৳40  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |            Power            |
+|   13    |     Breadboard large     |      ৳80       |    1     |  ৳80  | Swadesh [Attachment_1](attachments/1.png) | [Attachment_15](attachments/15.png) |           Testing           |
+|         |          Total           |                |    97    | ৳595  |                                           |                                     |      ACC Total: ৳3066       |
 
 - `Sun Feb 08 2026 18:21:49` : Successfully detached the ATMega328 to a standalone setup.
   <img alt="11" src="./attachments/11.png"/>
@@ -113,6 +113,17 @@
 - `Thu Feb 12 2026 17:07:48` : Might need to switch to ESP32, The GPS, the gyro. and the sonars add up to a lot of
   switches.
 - `Thu Feb 12 2026 18:45:49` : NOTE: IMEI complications on GSM Module. Current plans. just connect to phone over BLE.
+- `Fri Feb 13 2026 14:10:34` : Try `VeeCad`
+- `Fri Feb 13 2026 14:38:15` : Can't show the background wiring in VeeCad. Move to `VeroRoute`.
+- `Fri Feb 13 2026 15:07:24` : Use threads for strap ![alt text](./attachments/12.png)
+- `Fri Feb 13 2026 18:12:26` : Draft head base
+
+![13 png](./attachments/13.png)
+
+- `Fri Feb 13 2026 19:38:14` : Finalize Headgear Base
+
+![14 png](./attachments/14.png)
+
 # Format
 
 The time format is `GMT + 0600 (BST)`,\
@@ -136,45 +147,55 @@ copy(`- \`${new Date().toString().split(" ").slice(0, 5).join(" ")}\` : `);
 ["2n2222", "2.5", '8', 'Swadesh a!1', 'a!3', 'for the vibration motor'],
 ]
 */
-function generateInvoicesTable(ar) {
-    const categories = ["Item No", "Item Name", "Price per unit", "Quantity", "Total", "Store", "Receipt", "Note"];
-    let totalPrice = 0;
-    let totalQuan = 0;
-    ar.forEach((a, i) => {
-        a.unshift(i + 1);
-        const paid = a[3] * a[2];
-        a.splice(4, 0, paid);
-        totalPrice += paid;
-        totalQuan += +a[3];
-        if (a.length != categories.length) throw new Error("Mismatch");
-        if (a[6].includes("a!")) {
-            const spl = a[6].split("a!");
-            a[6] = `${spl[0].trim()} [Attachment_${spl[1]}](attachments/${spl[1]}.png)`;
-        }
-        if (a[5].includes("a!")) {
-            const spl = a[5].split("a!");
-            a[5] = `${spl[0].trim()} [Attachment_${spl[1]}](attachments/${spl[1]}.png)`;
-        }
-    });
 
-    ar.unshift([]); // padding
-    ar.unshift(categories);
-    for (let i = 0; i < categories.length; i++) {
-        ar[1].push(":---:"); // center
+function generateInvoicesTable(ar) {
+  const categories = [
+    "Item No",
+    "Item Name",
+    "Price per unit",
+    "Quantity",
+    "Total",
+    "Store",
+    "Receipt",
+    "Note",
+  ];
+  let totalPrice = 0;
+  let totalQuan = 0;
+  ar.forEach((a, i) => {
+    a.unshift(i + 1);
+    const paid = a[3] * a[2];
+    a.splice(4, 0, paid);
+    totalPrice += paid;
+    totalQuan += +a[3];
+    if (a.length != categories.length) throw new Error("Mismatch");
+    if (a[6].includes("a!")) {
+      const spl = a[6].split("a!");
+      a[6] = `${spl[0].trim()} [Attachment_${spl[1]}](attachments/${spl[1]}.png)`;
     }
-    ar.push(Array.from({ lenghth: categories.length }).fill(""));
-    ar.at(-1)[1] = "Total";
-    ar.at(-1)[3] = totalQuan;
-    ar.at(-1)[4] = totalPrice;
-    let res = ``;
-    for (let i = 0; i < ar.length; i++) {
-        res += "|";
-        for (let j = 0; j < ar[0].length; j++) {
-            res += `${ar[i][j] ?? ""}|`;
-        }
-        res += "\n";
+    if (a[5].includes("a!")) {
+      const spl = a[5].split("a!");
+      a[5] = `${spl[0].trim()} [Attachment_${spl[1]}](attachments/${spl[1]}.png)`;
     }
-    return res;
+  });
+
+  ar.unshift([]); // padding
+  ar.unshift(categories);
+  for (let i = 0; i < categories.length; i++) {
+    ar[1].push(":---:"); // center
+  }
+  ar.push(Array.from({ lenghth: categories.length }).fill(""));
+  ar.at(-1)[1] = "Total";
+  ar.at(-1)[3] = totalQuan;
+  ar.at(-1)[4] = totalPrice;
+  let res = ``;
+  for (let i = 0; i < ar.length; i++) {
+    res += "|";
+    for (let j = 0; j < ar[0].length; j++) {
+      res += `${ar[i][j] ?? ""}|`;
+    }
+    res += "\n";
+  }
+  return res;
 }
 ```
 
