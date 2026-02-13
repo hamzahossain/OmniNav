@@ -161,6 +161,11 @@
 
 ![17 png](./attachments/17.png)
 
+- `Sat Feb 14 2026 00:18:49` : Example of the wiring for a specific motor, in this example: `LD` :
+
+![Temp](https://github.com/user-attachments/assets/dad074b0-94a2-4351-81de-b7b674843286)
+
+Just make the base and solder to the specific direction 
 # Format
 
 The time format is `GMT + 0600 (BST)`,\
