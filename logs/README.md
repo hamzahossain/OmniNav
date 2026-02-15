@@ -173,6 +173,17 @@ Just make the base and solder to the specific direction
 - `Sat Feb 14 2026 02:00:36` : Settle on LiPo 3.3v 3000mAh
 - `Sat Feb 14 2026 02:24:19` : I need a 100uf or 1000uf on the charger circuit to stabilize the power for the ATMega
 - `Sat Feb 14 2026 02:54:18` : For ease, change pin designation
+- `Sun Feb 15 2026 17:25:53` : Purchashed
+
+| Item No |         Item Name          | Price per unit | Quantity | Total |                    Store                     |               Receipt               |                       Note                        |
+| :-----: | :------------------------: | :------------: | :------: | :---: | :------------------------------------------: | :---------------------------------: | :-----------------------------------------------: |
+|    1    |           ESP32            |      ৳360      |    1     | ৳360  |  Swadesh [Attachment_1](attachments/1.png)   | [Attachment_20](attachments/20.png) |  Esp32 has more computational power than an uno   |
+|    2    |      1000uf capacitor      |      ৳10       |    5     |  ৳50  |  Swadesh [Attachment_1](attachments/1.png)   | [Attachment_20](attachments/20.png) | Charging module circuit, deals with power hurdles |
+|    3    | 1200mAh 3.7V Li-PO battery |      ৳100      |    2     | ৳200  | AbdusSalam [Attachment_2](attachments/2.png) | [Attachment_18](attachments/18.png) |                  Power headgear                   |
+|    4    |       Custom Ribbon        |      ৳70       |    9     | ৳630  |  Farid [Attachment_22](attachments/22.png)   |                 ❌                  |                   Custom cables                   |
+|    5    |        2 pin socket        |      ৳10       |    1     |  10   |  Farid [Attachment_22](attachments/22.png)   |                 ❌                  |             connecting power circuit              |
+|         |           Total            |                |    18    | ৳1250 |                                              |                                     |                 ACC Total: ৳4316                  |
+
 - `Sun Feb 15 2026 21:19:57` : ESP32 Setup needs arduino-esp32 to be downloaded manually.
 - `Sun Feb 15 2026 23:00:16` : ESP32 blink test passed
 
