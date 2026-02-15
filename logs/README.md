@@ -135,14 +135,14 @@
 
 | ATMega PIN | Arduino PIN | Motor Number |
 | :--------: | :---------: | :----------: |
-|     19     |     13      |      0       |
-|     18     |     12      |      1       |
-|     17     |     11      |      2       |
-|     15     |      9      |      3       |
-|     11     |      5      |      4       |
-|     12     |      6      |      5       |
-|     13     |      7      |      6       |
-|     14     |      8      |      7       |
+|     15     |      9      |      0       |
+|     17     |     11      |      1       |
+|     18     |     12      |      2       |
+|     19     |     13      |      3       |
+|     14     |      8      |      4       |
+|     13     |      7      |      5       |
+|     12     |      6      |      6       |
+|     11     |      5      |      7       |
 |     16     |     10      |  RF Receive  |
 |     5      |      3      | Exposed PWM  |
 
@@ -172,6 +172,11 @@ Just make the base and solder to the specific direction
 - `Sat Feb 14 2026 01:16:29` : On The base, expose digital pin 3 for debugging
 - `Sat Feb 14 2026 02:00:36` : Settle on LiPo 3.3v 3000mAh
 - `Sat Feb 14 2026 02:24:19` : I need a 100uf or 1000uf on the charger circuit to stabilize the power for the ATMega
+- `Sat Feb 14 2026 02:54:18` : For ease, change pin designation
+- `Sun Feb 15 2026 21:19:57` : ESP32 Setup needs arduino-esp32 to be downloaded manually.
+- `Sun Feb 15 2026 23:00:16` : ESP32 blink test passed
+
+![21 png](./attachments/21.png)
 
 # Format
 
