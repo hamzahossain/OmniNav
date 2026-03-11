@@ -176,7 +176,9 @@ Just make the base and solder to the specific direction
 - `Sun Feb 15 2026 21:19:57` : ESP32 Setup needs arduino-esp32 to be downloaded manually.
 - `Sun Feb 15 2026 23:00:16` : ESP32 blink test passed
 
-![21 png](./attachments/21.png)
+  ![21 png](./attachments/21.jpg)
+
+- `Wed Mar 11 2026 23:40:34` : Add a reset functionality via USB-TTL
 
 # Format
 
