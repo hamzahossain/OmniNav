@@ -190,7 +190,7 @@ Just make the base and solder to the specific direction
   ![21 png](./attachments/21.jpg)
 
 - `Wed Mar 11 2026 23:40:34` : Add a reset functionality via USB-TTL
-
+- `Mon Apr 20 2026 01:38:26` : Make it circular
 # Format
 
 The time format is `GMT + 0600 (BST)`,\
