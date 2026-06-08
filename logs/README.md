@@ -180,9 +180,9 @@ Just make the base and solder to the specific direction
 |    1    |           ESP32            |      ৳360      |    1     | ৳360  |  Swadesh [Attachment_1](attachments/1.png)   | [Attachment_20](attachments/20.png) |  Esp32 has more computational power than an uno   |
 |    2    |      1000uf capacitor      |      ৳10       |    5     |  ৳50  |  Swadesh [Attachment_1](attachments/1.png)   | [Attachment_20](attachments/20.png) | Charging module circuit, deals with power hurdles |
 |    3    | 1200mAh 3.7V Li-PO battery |      ৳100      |    2     | ৳200  | AbdusSalam [Attachment_2](attachments/2.png) | [Attachment_18](attachments/18.png) |                  Power headgear                   |
-|    4    |       Custom Ribbon        |      ৳70       |    9     | ৳630  |  Farid [Attachment_22](attachments/22.png)   |                 ❌                  |                   Custom cables                   |
+|    4    |       Custom Ribbon        |      ৳90       |    9     | ৳810  |  Farid [Attachment_22](attachments/22.png)   |                 ❌                  |                   Custom cables                   |
 |    5    |        2 pin socket        |      ৳10       |    1     |  10   |  Farid [Attachment_22](attachments/22.png)   |                 ❌                  |             connecting power circuit              |
-|         |           Total            |                |    18    | ৳1250 |                                              |                                     |                 ACC Total: ৳4316                  |
+|         |           Total            |                |    18    | ৳1430 |                                              |                                     |                 ACC Total: ৳4496                  |
 
 - `Sun Feb 15 2026 21:19:57` : ESP32 Setup needs arduino-esp32 to be downloaded manually.
 - `Sun Feb 15 2026 23:00:16` : ESP32 blink test passed
